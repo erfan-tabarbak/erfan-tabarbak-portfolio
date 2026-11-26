@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Erfan Tabarbak | عرفان تبرباک – Front-end Developer &amp; Designer</title>
+<meta name="description" content="Erfan Tabarbak (عرفان تبرباک) is a front-end developer and designer building fast, responsive, accessible websites. See projects, experience and get in touch.">
+<meta name="author" content="Erfan Tabarbak">
+<meta name="theme-color" content="#E9E1D3">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Erfan Tabarbak | عرفان تبرباک">
+<meta property="og:description" content="Front-end developer and designer. Projects, experience and contact.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23FF6A3D'/%3E%3Ctext x='50' y='66' font-size='52' font-family='Arial' font-weight='800' text-anchor='middle' fill='%23111'%3EET%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Erfan Tabarbak","alternateName":"عرفان تبرباک","jobTitle":"Front-end Developer & Designer","alumniOf":"Islamic Azad University, Tabriz","knowsLanguage":["en","fa"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&family=Saira+Extra+Condensed:wght@600;700;800&family=Vazirmatn:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#15141B; --mute:#4A4A58; --accent:#D9400F; --on:#111; --glass:rgba(250,243,232,.5); --glassb:rgba(255,250,242,.55); --shadow:rgba(60,40,30,.18);
+  --bgbase:#E9E1D3; --b1:#F5B8A2; --b2:#A9CFEA; --b3:#B5E0C8; --b4:#F3D88E; --b5:#C6B8EE; --navbg:rgba(248,241,230,.6); --g1:#E8481C; --g2:#7A5CFF; --g3:#0E8FD0; --blob:rgba(255,140,100,.45); --blob2:rgba(110,190,255,.45); --itemb:rgba(190,170,140,.4); --grad:linear-gradient(90deg,#FF8A5C,#FFC94D);
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#F2F0F6;--mute:#C4C2D0;--accent:#FF8A5C;--on:#111;--glass:rgba(40,36,48,.55);--glassb:rgba(255,255,255,.14);--shadow:rgba(0,0,0,.5);--bgbase:#15141A;--b1:#4A2418;--b2:#1E3F66;--b3:#1C4A44;--b4:#51421A;--b5:#3A2C6B;--navbg:rgba(40,36,48,.6);--g1:#FF8A5C;--g2:#B8A4FF;--g3:#6EC8FF;--blob:rgba(255,120,80,.2);--blob2:rgba(90,150,255,.2);--grad:linear-gradient(90deg,#FF8A5C,#FFC94D)}}
+:root[data-theme="dark"]{--ink:#F2F0F6;--mute:#C4C2D0;--accent:#FF8A5C;--on:#111;--glass:rgba(40,36,48,.55);--glassb:rgba(255,255,255,.14);--shadow:rgba(0,0,0,.5);--bgbase:#15141A;--b1:#4A2418;--b2:#1E3F66;--b3:#1C4A44;--b4:#51421A;--b5:#3A2C6B;--navbg:rgba(40,36,48,.6);--g1:#FF8A5C;--g2:#B8A4FF;--g3:#6EC8FF;--blob:rgba(255,120,80,.2);--blob2:rgba(90,150,255,.2);--grad:linear-gradient(90deg,#FF8A5C,#FFC94D)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;color:var(--mute);font-family:Mulish,Vazirmatn,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:18px;line-height:1.65;min-height:100vh;
+  background:radial-gradient(40rem 32rem at 8% 6%,var(--b1),transparent 70%),radial-gradient(44rem 34rem at 95% 10%,var(--b2),transparent 70%),radial-gradient(40rem 34rem at 80% 95%,var(--b3),transparent 70%),radial-gradient(34rem 30rem at 15% 90%,var(--b4),transparent 70%),radial-gradient(30rem 26rem at 50% 50%,var(--b5),transparent 75%),var(--bgbase);background-attachment:fixed}
+a{color:var(--accent);font-weight:700}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+h1,h2,h3{font-family:"Saira Extra Condensed","Arial Narrow",Impact,sans-serif;color:var(--ink);text-transform:uppercase;line-height:1;margin:0}
+h2{font-size:clamp(44px,6vw,68px);font-weight:700}
+h3{font-size:32px;font-weight:700}
+h4{font-family:"Saira Extra Condensed",sans-serif;text-transform:uppercase;font-size:26px;font-weight:600;color:var(--ink);margin:0 0 1rem}
+.fa{font-family:Vazirmatn,Mulish,system-ui,sans-serif;direction:rtl;text-align:right;text-transform:none;letter-spacing:0}
+.fsub{display:block;font-size:1.35rem;font-weight:800;color:var(--accent);margin:.3rem 0 1.6rem;line-height:1.5}
+.glass{background:var(--glass);border:1px solid var(--glassb);border-radius:28px;box-shadow:0 10px 40px var(--shadow);-webkit-backdrop-filter:blur(22px) saturate(1.5);backdrop-filter:blur(22px) saturate(1.5)}
+
+.side{position:fixed;top:calc(1rem + env(safe-area-inset-top,0px));left:1rem;bottom:1rem;width:15.5rem;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:1rem;z-index:10;overflow-y:auto;background:var(--navbg)}
+.avatar{width:9rem;height:9rem;border-radius:50%;padding:6px;margin-bottom:1.4rem;flex:none}
+.avatar span{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#F6EEDD,#E2D6C0);color:#111;font-family:"Saira Extra Condensed",sans-serif;font-weight:800;font-size:56px}
+.side ul{list-style:none;margin:0;padding:0;width:100%}
+.side a.nl{display:flex;justify-content:space-between;align-items:center;gap:.6rem;padding:.5rem .9rem;margin:.15rem 0;border-radius:999px;color:var(--ink);font-weight:800;font-size:.92rem;text-decoration:none;transition:background .2s,transform .2s}
+.side a.nl small{font-family:Vazirmatn,sans-serif;font-weight:600;font-size:.82rem;color:var(--mute)}
+.side a.nl:hover{background:var(--glassb)}
+.side a.nl.on{color:var(--on)}
+.side a.nl.on small{color:var(--on)}
+.bar{display:none}
+.themebtn{margin-top:1rem;background:var(--glassb);border:1px solid var(--glassb);color:var(--ink);border-radius:999px;padding:.5rem 1rem;font:800 .85rem Mulish,Vazirmatn,sans-serif;cursor:pointer}
+.themebtn:hover{background:var(--grad);color:var(--on)}
+main{margin-left:17.5rem;padding:1rem 1.5rem 1.5rem 0}
+section{margin-bottom:1.5rem;padding:3.5rem 3rem;display:block}
+.hero{min-height:calc(100vh - 2.5rem);display:flex;flex-direction:column;justify-content:center}
+.hi{font-size:clamp(64px,10vw,116px);font-weight:800;line-height:.88;background:linear-gradient(100deg,var(--g1),var(--g2) 33%,var(--g3) 66%,var(--g1));background-size:200% auto;animation:shimmer 9s linear infinite;-webkit-background-clip:text;background-clip:text;color:transparent}
+.fa-name{font-size:clamp(32px,5vw,52px);font-weight:800;color:var(--ink);margin:.4rem 0 1rem}
+.lead{font-size:1.25rem;max-width:44rem;margin:0 0 1rem}
+.pill{display:inline-flex;align-items:center;gap:.6rem;align-self:flex-start;background:linear-gradient(90deg,#B9F5DD,#9FDBFF);color:#0F3A33;font-weight:800;padding:.5rem 1.1rem;border-radius:999px;font-size:.95rem;margin-bottom:1.4rem}
+.pill i{width:.6rem;height:.6rem;border-radius:50%;background:#14A36B;display:block}
+.social{display:flex;gap:.7rem;margin:1.4rem 0 0;padding:0;list-style:none}
+.social a{display:grid;place-items:center;width:3rem;height:3rem;border-radius:50%;background:var(--glassb);border:1px solid var(--glassb);color:var(--ink);font-weight:800;font-size:.85rem;text-decoration:none;transition:transform .2s,background .2s}
+.social a:hover{background:var(--grad);color:var(--on);transform:translateY(-3px)}
+.social svg{width:1.25rem;height:1.25rem;display:block}
+.social li:nth-child(1) a{color:#229ED9}.social li:nth-child(2) a{color:#25D366}.social li:nth-child(3) a{color:#0A66C2}.social li:nth-child(4) a{color:#181717}.social li:nth-child(5) a{color:var(--accent)}
+.item{display:flex;justify-content:space-between;gap:1.5rem;padding:1.4rem 1.6rem;margin-bottom:1rem;border-radius:20px;background:var(--glassb);border:1px solid var(--glassb)}
+.item:last-child{margin-bottom:0}
+.item h3{margin-bottom:.2rem}
+.sub{font-family:"Saira Extra Condensed",sans-serif;font-size:1.5rem;font-weight:600;color:var(--accent);text-transform:uppercase;margin:0 0 .4rem}
+.item p{margin:0 0 .3rem}
+.date{color:var(--ink);font-weight:800;white-space:nowrap;text-align:right;font-size:.95rem}
+.tiles{display:flex;flex-wrap:wrap;gap:1rem;padding:0;margin:0 0 2rem;list-style:none}
+.tiles li{min-width:3.8rem;height:3.8rem;padding:0 1rem;border-radius:16px;display:grid;place-items:center;font-weight:800;font-size:.85rem;cursor:default;box-shadow:0 6px 16px var(--shadow);transition:transform .2s;background:#FF8A65;color:#111}
+.tiles li:nth-child(5n+2){background:#7CC8FF;color:#111}.tiles li:nth-child(5n+3){background:#6EE3B6;color:#111}.tiles li:nth-child(5n+4){background:#FFD25E;color:#111}.tiles li:nth-child(5n){background:#B8A4FF;color:#111}
+.tiles li:hover{transform:translateY(-4px) rotate(-4deg)}
+.checks,.awards{list-style:none;padding:0;margin:0}
+.checks li{padding-left:2rem;position:relative;margin:.25rem 0;color:var(--ink)}
+.checks li::before{content:"";position:absolute;left:.25rem;top:.5rem;width:.45rem;height:.85rem;border:solid var(--accent);border-width:0 3px 3px 0;transform:rotate(40deg)}
+.awards li{margin:.9rem 0;padding:1rem 1.3rem;border-radius:18px;background:var(--glassb);border:1px solid var(--glassb);color:var(--ink);font-weight:600}
+.awards .fa{display:block;color:var(--mute);font-weight:400;font-size:.95rem}
+.foot{text-align:center;font-size:.9rem;padding:0 0 1rem;margin-left:17.5rem}
+
+.btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.2rem}
+.btn{display:inline-block;padding:.75rem 1.5rem;border-radius:999px;font-weight:800;text-decoration:none;font-size:1rem;border:0;cursor:pointer;font-family:inherit;transition:transform .2s,box-shadow .2s}
+.btn.p{background:var(--grad);color:var(--on)}
+.btn.g{background:var(--glassb);color:var(--ink);border:1px solid var(--glassb)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 8px 20px var(--shadow)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.2rem}
+.card{border-radius:22px;background:var(--glassb);border:1px solid var(--glassb);overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-6px) rotate(-.6deg);box-shadow:0 16px 36px var(--shadow)}
+.thumb{height:8.5rem;display:grid;place-items:center;font-family:"Saira Extra Condensed",sans-serif;font-size:72px;font-weight:800;color:#111;background:linear-gradient(135deg,#FF8A65,#FFD25E)}
+.card:nth-child(2) .thumb{background:linear-gradient(135deg,#7CC8FF,#6EE3B6);color:#111}
+.card:nth-child(3) .thumb{background:linear-gradient(135deg,#B8A4FF,#FF8A65);color:#111}
+.card .b{padding:1.1rem 1.3rem 1.3rem;display:flex;flex-direction:column;flex:1}
+.card h3{font-size:28px}
+.card p{margin:.4rem 0}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0 1rem;padding:0;list-style:none}
+.tags li{font-size:.78rem;font-weight:800;padding:.15rem .7rem;border-radius:999px;background:var(--glass);color:var(--ink);border:1px solid var(--glassb)}
+.card a.lk{margin-top:auto;text-decoration:none}
+.cform{display:grid;gap:1rem;max-width:36rem}
+.cform label{font-weight:800;color:var(--ink);font-size:.95rem;display:flex;justify-content:space-between}
+.cform label small{font-family:Vazirmatn,sans-serif;font-weight:600;color:var(--mute)}
+.cform input,.cform textarea{width:100%;margin-top:.35rem;padding:.8rem 1rem;border-radius:16px;border:1px solid var(--glassb);background:var(--glassb);color:var(--ink);font:inherit;font-size:1rem}
+.cform textarea{min-height:8rem;resize:vertical}
+.ok{color:var(--accent);font-weight:800;min-height:1.5rem;margin:0}
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+.js .rv.in{opacity:1;transform:none}
+@media (max-width:991px){
+  .side{top:calc(.6rem + env(safe-area-inset-top,0px));left:.6rem;right:.6rem;bottom:auto;width:auto;padding:0;overflow:visible;border-radius:22px}
+  .side .avatar{display:none}
+  .themebtn{display:none;margin:0 .6rem .7rem;width:calc(100% - 1.2rem)}.side.open .themebtn{display:block}
+  .bar{display:flex;justify-content:space-between;align-items:center;width:100%;padding:.7rem 1.1rem;color:var(--ink);font-family:"Saira Extra Condensed",sans-serif;font-weight:700;font-size:1.5rem;text-transform:uppercase}
+  .bar button{background:var(--glassb);border:1px solid var(--glassb);color:var(--ink);border-radius:999px;padding:.35rem 1rem;font:800 .9rem Mulish,sans-serif;cursor:pointer}
+  .nav{display:none;width:100%;padding:0 .6rem .7rem}
+  .side.open .nav{display:block}
+  main{margin-left:0;padding:5.5rem .6rem .6rem}
+  section{padding:2.2rem 1.3rem}.hero{min-height:0}
+  .item{flex-direction:column;gap:.3rem}.date{text-align:left}
+  .foot{margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}html{scroll-behavior:auto!important}}
+
+body::before,body::after{content:"";position:fixed;border-radius:50%;filter:blur(70px);background:var(--blob);z-index:-1;pointer-events:none}
+body::before{width:34rem;height:34rem;top:-10rem;right:-8rem;animation:drift 20s ease-in-out infinite alternate}
+body::after{width:28rem;height:28rem;bottom:-9rem;left:20%;animation:drift 26s ease-in-out infinite alternate-reverse}
+@keyframes drift{to{transform:translate(-6rem,5rem) scale(1.25)}}
+@keyframes shimmer{to{background-position:200% center}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes bob{50%{transform:translateY(-6px)}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(20,163,107,.55)}70%,100%{box-shadow:0 0 0 .6rem transparent}}
+@keyframes blink{50%{opacity:0}}
+@keyframes up{from{opacity:0;transform:translateY(18px)}}
+.avatar{position:relative}
+.avatar::before{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(#FF6A3D,#FFB020,#3DDBA8,#3DA5FF,#7A5CFF,#FF6A3D);animation:spin 7s linear infinite}
+.avatar span{position:relative}
+.pill i{animation:pulse 2s infinite}
+.tiles li{border:1px solid var(--glassb);animation:bob 4s ease-in-out infinite}
+.tiles li:nth-child(2n){animation-delay:-1s}.tiles li:nth-child(3n){animation-delay:-2s}.tiles li:nth-child(5n){animation-delay:-3s}
+.roles{font-family:"Saira Extra Condensed","Arial Narrow",sans-serif;font-size:clamp(24px,3.4vw,34px);font-weight:700;text-transform:uppercase;color:var(--ink);margin:0 0 1rem;min-height:1.3em}
+.roles i{display:inline-block;width:3px;height:.9em;background:var(--accent);margin-left:4px;vertical-align:-.1em;animation:blink 1s steps(1) infinite}
+#sp{position:fixed;top:0;left:0;height:4px;width:0;background:var(--grad);z-index:30}
+section.glass{position:relative}
+section.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(20rem circle at var(--mx,50%) var(--my,0%),var(--blob),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+section.glass:hover::before{opacity:1}
+.js .in .card,.js .in .item{animation:up .6s both}
+.in .item:nth-child(4),.in .card:nth-child(2){animation-delay:.12s}.in .item:nth-child(5),.in .card:nth-child(3){animation-delay:.24s}
+body::after{background:var(--blob2)}
+#contact .cform{margin:1.5rem auto 0}
+.side ul{position:relative}
+.side a.nl{position:relative;z-index:1;transition:background .2s,transform .2s,color .35s}
+.side a.nl.on:hover{background:transparent}
+.bb{display:flex;align-items:center;gap:.5rem}
+.item{background:var(--itemb)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--itemb:rgba(255,255,255,.14)}}
+:root[data-theme="dark"]{--itemb:rgba(255,255,255,.14)}
+.side .bar button.themebtn{display:inline-block;margin:0;width:auto;padding:.35rem .9rem;font-size:1rem;line-height:1.2}
+@media (min-width:992px){.bar{display:flex;position:absolute;top:.8rem;right:.9rem;width:auto;padding:0}.bar>span,.bar #tg{display:none}}
+.ind{position:absolute;left:0;top:0;width:100%;height:0;border-radius:999px;background:var(--grad);box-shadow:0 4px 14px var(--shadow);opacity:0;pointer-events:none;z-index:0;transition:transform .55s cubic-bezier(.34,1.45,.64,1),height .55s cubic-bezier(.34,1.45,.64,1),opacity .3s}
+#contact .cform .btns{justify-content:center}
+#contact .ok{text-align:center}
+.tiles li{box-shadow:0 6px 16px var(--shadow)}</style>
+</head>
+<body>
+<div id="sp"></div>
+<aside class="side glass" id="side">
+  <div class="bar"><span>Erfan Tabarbak</span><div class="bb"><button class="themebtn" id="th" type="button" aria-label="Toggle dark and light theme">◐</button><button id="tg" aria-expanded="false" aria-controls="nav">Menu</button></div></div>
+  <div class="avatar" aria-hidden="true"><span>ET</span></div>
+  <nav class="nav" id="nav" aria-label="Sections" style="width:100%">
+    <ul>
+      <li><a class="nl on" href="#about">About <small lang="fa">درباره من</small></a></li>
+      <li><a class="nl" href="#experience">Experience <small lang="fa">سوابق</small></a></li>
+      <li><a class="nl" href="#projects">Projects <small lang="fa">پروژه‌ها</small></a></li>
+      <li><a class="nl" href="#education">Education <small lang="fa">تحصیلات</small></a></li>
+      <li><a class="nl" href="#skills">Skills <small lang="fa">مهارت‌ها</small></a></li>
+      <li><a class="nl" href="#interests">Interests <small lang="fa">علایق</small></a></li>
+      <li><a class="nl" href="#contact">Contact <small lang="fa">تماس</small></a></li>
+    </ul>
+  </nav>
+</aside>
+
+<main>
+  <section id="about" class="glass hero">
+    <span class="pill"><i></i>Open to new projects · آماده همکاری</span>
+    <h1 class="hi">Erfan Tabarbak</h1>
+    <div class="fa fa-name" lang="fa" dir="rtl">عرفان تبرباک</div>
+    <p class="roles"><span id="rl">Software developer</span><i></i></p>
+    <p class="lead">Front-end developer and designer. I build fast, responsive, accessible websites and I care about the small details that make them feel good to use.</p>
+    <p class="lead fa" lang="fa" dir="rtl">توسعه‌دهنده و طراح فرانت‌اند. سایت‌های سریع، واکنش‌گرا و در دسترس می‌سازم و به جزئیاتی که تجربه‌ی کاربر را دلنشین می‌کنند اهمیت می‌دهم.</p>
+    <p class="lead" style="font-size:1.05rem">Email: <a href="mailto:erfantabarbak.pro@gmail.com">erfantabarbak.pro@gmail.com</a></p>
+    <div class="btns"><a class="btn p" href="https://claude.ai/artifact/5S9M1r8YKv6V2i54VAjDYw" target="_blank" rel="noopener">View my CV · مشاهده رزومه</a></div>
+    <ul class="social"><li><a href="https://t.me/Tabarbak" aria-label="Telegram" title="Telegram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.8 3.2 18.5 20c-.2 1.2-.9 1.5-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L6 13.5l-4.9-1.6c-1.1-.3-1.1-1.1.2-1.6L20.4 2c.9-.3 1.7.2 1.4 1.2Z"/></svg></a></li><li><a href="https://wa.me/989144649593" aria-label="WhatsApp" title="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a9.8 9.8 0 0 0-8.4 14.9L2.3 22l5.3-1.4A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3.1.8.8-3-.2-.3A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1s-.6.8-.8.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-1.9-1.2 7 7 0 0 1-1.3-1.6c-.1-.2 0-.4.1-.5l.4-.5.2-.4c.1-.2 0-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6a9 9 0 0 0 3.5 3.1c.5.2.9.4 1.2.5.5.1 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.6.2-1 .2-1.1-.1-.1-.3-.2-.6-.3Z"/></svg></a></li><li><a href="https://www.linkedin.com/in/erfan-tabarbak-088467452" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2ZM8.3 18H5.7V9.5h2.6ZM7 8.3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3ZM18.3 18h-2.6v-4.1c0-1 0-2.2-1.4-2.2s-1.6 1.1-1.6 2.1V18h-2.6V9.5h2.5v1.2h.1c.4-.7 1.2-1.4 2.5-1.4 2.7 0 3.2 1.8 3.2 4.1Z"/></svg></a></li><li><a href="https://github.com/erfan-tabarbak" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .8a11.2 11.2 0 0 0-3.5 21.8c.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.3-3.8-1.3-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.7 2.1 3.6 1.5.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.3-5.1-5.5 0-1.2.4-2.1 1.1-2.9-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 1.1a10.4 10.4 0 0 1 5.5 0c2.1-1.4 3-1.1 3-1.1.6 1.5.2 2.6.1 2.9.7.8 1.1 1.7 1.1 2.9 0 4.2-2.6 5.2-5.1 5.5.4.3.8 1 .8 2v3.1c0 .3.2.7.8.6A11.2 11.2 0 0 0 12 .8Z"/></svg></a></li><li><a href="mailto:erfantabarbak.pro@gmail.com" aria-label="Email" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm9 7.2L20.5 7h-17ZM3 17h18V9l-9 6-9-6Z"/></svg></a></li></ul>
+  </section>
+
+  <section id="experience" class="glass">
+    <h2>Experience</h2><span class="fa fsub" lang="fa" dir="rtl">سوابق کاری</span>
+    <div class="item"><div><h3>Senior Web Developer</h3><div class="sub">Studio Name</div><p>Led the front-end for client websites and web apps, improved speed and accessibility, and mentored junior developers.</p><p class="fa" lang="fa" dir="rtl">رهبری فرانت‌اند پروژه‌های مشتریان و بهبود سرعت و دسترس‌پذیری.</p></div><div class="date">2022 – Present</div></div>
+    <div class="item"><div><h3>Web Developer</h3><div class="sub">Agency Name</div><p>Built responsive landing pages and design systems with designers and back-end engineers.</p><p class="fa" lang="fa" dir="rtl">ساخت لندینگ‌های واکنش‌گرا و سیستم طراحی در کنار تیم طراحی و بک‌اند.</p></div><div class="date">2019 – 2022</div></div>
+    <div class="item"><div><h3>Junior Developer</h3><div class="sub">Company Name</div><p>Maintained websites, fixed cross-browser bugs and shipped my first production features.</p><p class="fa" lang="fa" dir="rtl">نگهداری سایت‌ها و رفع باگ‌های مرورگرها.</p></div><div class="date">2017 – 2019</div></div>
+  </section>
+
+  <section id="projects" class="glass">
+    <h2>Projects</h2><span class="fa fsub" lang="fa" dir="rtl">نمونه‌کارها</span>
+    <div class="grid">
+      <article class="card"><div class="thumb" aria-hidden="true">P</div><div class="b"><h3>Pocket Studio</h3><p>A mobile-first portfolio builder for creatives.</p><p class="fa" lang="fa" dir="rtl">سازنده نمونه‌کار موبایل‌محور برای افراد خلاق.</p><ul class="tags"><li>React</li><li>UI design</li></ul><a class="lk" href="#">View project · مشاهده</a></div></article>
+      <article class="card"><div class="thumb" aria-hidden="true">F</div><div class="b"><h3>Fieldnotes</h3><p>A calm note-taking app with fast search.</p><p class="fa" lang="fa" dir="rtl">اپ یادداشت‌برداری آرام با جستجوی سریع.</p><ul class="tags"><li>TypeScript</li><li>PWA</li></ul><a class="lk" href="#">View project · مشاهده</a></div></article>
+      <article class="card"><div class="thumb" aria-hidden="true">O</div><div class="b"><h3>Orbit Dashboard</h3><p>An analytics dashboard that makes dense data readable.</p><p class="fa" lang="fa" dir="rtl">داشبورد تحلیلی خوانا برای داده‌های حجیم.</p><ul class="tags"><li>Charts</li><li>Accessibility</li></ul><a class="lk" href="#">View project · مشاهده</a></div></article>
+    </div>
+  </section>
+
+  <section id="education" class="glass">
+    <h2>Education</h2><span class="fa fsub" lang="fa" dir="rtl">تحصیلات</span>
+    <div class="item"><div><h3>Islamic Azad University, Tabriz</h3><div class="sub">Computer Engineering (Software)</div><p>Bachelor of Science</p><p class="fa" lang="fa" dir="rtl">کارشناسی مهندسی کامپیوتر (نرم‌افزار) · دانشگاه آزاد اسلامی تبریز</p></div><div class="date">Graduated 1404 (2025–26)</div></div>
+  </section>
+
+  <section id="skills" class="glass">
+    <h2>Skills</h2><span class="fa fsub" lang="fa" dir="rtl">مهارت‌ها</span>
+    <h4>Skills</h4>
+    <ul class="tiles">
+      <li title="Java Script">Java Script</li><li title="HTML">HTML</li><li title="CSS">CSS</li><li title="PHP">PHP</li><li title="Node.js">Node.js</li><li title="React">React</li><li title="WordPress">WordPress</li><li title="SEO">SEO</li>
+    </ul>
+  </section>
+
+  <section id="interests" class="glass">
+    <h2>Interests</h2><span class="fa fsub" lang="fa" dir="rtl">علایق</span>
+    <p class="lead">Outside work I love exploring typefaces, tinkering with side projects, and reading about design and technology. I also enjoy travel, music and good coffee.</p>
+    <p class="lead fa" lang="fa" dir="rtl">بیرون از کار عاشق فونت‌ها، پروژه‌های شخصی، مطالعه درباره‌ی طراحی و فناوری، سفر، موسیقی و قهوه‌ی خوب هستم.</p>
+  </section>
+<section id="contact" class="glass">
+    <h2>Contact</h2><span class="fa fsub" lang="fa" dir="rtl">بیایید با هم چیز خوبی بسازیم</span>
+    <p class="lead">Have a project in mind or just want to say hi? Send me a message.</p>
+    <form class="cform" id="cf" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact">
+      <div hidden><label>Leave this field empty: <input name="bot-field"></label></div>
+      <label>Name <small lang="fa">نام</small></label>
+      <input name="name" required autocomplete="name" aria-label="Name">
+      <label>Email <small lang="fa">ایمیل</small></label>
+      <input name="email" type="email" required autocomplete="email" aria-label="Email">
+      <label>Message <small lang="fa">پیام</small></label>
+      <textarea name="message" required aria-label="Message"></textarea>
+      <div class="btns" style="margin:0"><button class="btn p" type="submit">Send message · ارسال پیام</button></div>
+      <p class="ok" id="ok" role="status"></p>
+    </form>
+  </section>
+</main>
+<p class="foot">© <span id="yr">2026</span> Erfan Tabarbak · عرفان تبرباک</p>
+
+<script>
+var links=[].slice.call(document.querySelectorAll('a.nl')),side=document.getElementById('side'),tg=document.getElementById('tg');
+document.getElementById('yr').textContent=new Date().getFullYear();
+var cf=document.getElementById('cf');
+cf.addEventListener('submit',function(e){e.preventDefault();var status=document.getElementById('ok');status.textContent='Sending… · در حال ارسال';fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(cf)).toString()}).then(function(r){if(!r.ok)throw new Error('Submission failed');cf.reset();status.textContent='Message sent successfully. · پیام با موفقیت ارسال شد.'}).catch(function(){status.textContent='Could not send the message. Please try again later. · ارسال پیام انجام نشد؛ لطفاً بعداً دوباره تلاش کنید.'})});
+if('IntersectionObserver' in window){
+  document.documentElement.classList.add('js');
+  var rv=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');rv.unobserve(e.target)}})},{threshold:.08});
+  document.querySelectorAll('main section:not(.hero)').forEach(function(s){s.classList.add('rv');rv.observe(s)});
+}
+var ind=document.createElement('span');ind.className='ind';links[0].closest('ul').prepend(ind);
+function mv(a){ind.style.opacity=1;ind.style.height=a.offsetHeight+'px';ind.style.transform='translateY('+a.offsetTop+'px)'}
+function place(){mv(document.querySelector('a.nl.on')||links[0])}
+place();addEventListener('resize',place);addEventListener('load',place);
+var th=document.getElementById('th');
+try{var sv=localStorage.getItem('theme');if(sv==='dark'||sv==='light')document.documentElement.setAttribute('data-theme',sv)}catch(e){}
+th.addEventListener('click',function(){var r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),n=cur==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n)}catch(e){}});
+tg.addEventListener('click',function(){var o=side.classList.toggle('open');tg.setAttribute('aria-expanded',o);setTimeout(place,0)});
+document.addEventListener('click',function(e){if(side.classList.contains('open')&&!tg.contains(e.target)&&!th.contains(e.target)){side.classList.remove('open');tg.setAttribute('aria-expanded','false')}});
+links.forEach(function(a){a.addEventListener('click',function(){side.classList.remove('open');tg.setAttribute('aria-expanded','false')})});
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){var on=a.getAttribute('href')==='#'+e.target.id;a.classList.toggle('on',on);if(on)mv(a)})}})},{rootMargin:'-40% 0px -55% 0px'});
+  document.querySelectorAll('main section').forEach(function(s){io.observe(s)});
+}
+
+(function(){var el=document.getElementById('rl'),w=['Software developer','Front-end developer','UI designer'],i=0,j=0,d=false;
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+function t(){var s=w[i];el.textContent=s.slice(0,j);if(!d&&j<s.length){j++;setTimeout(t,90)}else if(!d){d=true;setTimeout(t,1400)}else if(j>0){j--;setTimeout(t,45)}else{d=false;i=(i+1)%w.length;setTimeout(t,300)}}
+t()})();
+var sp=document.getElementById('sp');
+addEventListener('scroll',function(){var h=document.documentElement;sp.style.width=(h.scrollTop/Math.max(1,h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
+document.querySelectorAll('section.glass').forEach(function(x){x.addEventListener('pointermove',function(e){var r=x.getBoundingClientRect();x.style.setProperty('--mx',(e.clientX-r.left)+'px');x.style.setProperty('--my',(e.clientY-r.top)+'px')})});
+</script>
+</body>
+</html>
+
+
+
+
+
+
